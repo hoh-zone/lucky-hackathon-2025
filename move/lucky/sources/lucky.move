@@ -24,9 +24,9 @@ public struct Record has key {
     draws: vector<ID>,
 }
 
-// todo: add name
 public struct Draw has key, store {
     id: UID,
+    name: String,
     end_at: u64,
     confirm_threshold: u64,
     publish: bool,
@@ -60,10 +60,12 @@ public fun new(
     end_at: u64, 
     confirm_threshold: u64, 
     num_winners: u64, 
+    name: String,
     ctx: &mut TxContext
     ) {
         let r = Draw {
             id: object::new(ctx),
+            name,
             end_at,
             confirm_threshold,
             publish: false,
