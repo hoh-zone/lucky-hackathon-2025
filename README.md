@@ -1,2 +1,17 @@
-# lucky-hackathon-2025
-2025 全球黑客松抽奖 中文区专属
+# Sui Lucky Draw
+
+## Setup
+
+```bash
+pnpm i
+cd move/lucky && sui client publish
+```
+
+edit `constants.ts`
+edit `contracts/config.ts`
+
+## Run
+
+```bash
+pnpm dev
+```

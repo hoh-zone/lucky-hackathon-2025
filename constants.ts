@@ -1,0 +1,4 @@
+export const LUCKY_ADMINCAP =
+  "0xb99bb8f16ec51a487ffa57cde59637c7e47021e368dda2704b9567a09c1c0e77";
+export const RECORD =
+  "0x19d1bb5e1dfb12260c3fa0c1b83420e892946c0728a665e560e6caa14921b398";

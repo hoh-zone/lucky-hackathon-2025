@@ -7,6 +7,7 @@ build
 .pnpm-store/
 /.pnp
 .pnp.js
+.next
 
 # testing
 /coverage
@@ -27,3 +28,4 @@ sui.log.*
 .history
 *.Identifier
 
+.cursor
